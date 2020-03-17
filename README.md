@@ -1,5 +1,5 @@
 # wsl2 docker start script
-Script adding wsl2 host to windows hosts file
+Script adding wsl2 and winhost to windows hosts file
 File Windows/System32/drivers/etc/hosts should be writebable for user from which launched WSL2
 
 # How to use
@@ -9,3 +9,14 @@ File Windows/System32/drivers/etc/hosts should be writebable for user from which
 
 Your docker server now available here tcp://wsl2:2375
 And any other services 
+
+# xDebug config examle
+
+zend_extension=xdebug.so
+xdebug.remote_host=winhost
+xdebug.remote_enable=1
+xdebug.remote_port=9000
+xdebug.remote_connect_back=0
+xdebug.idekey=PHPSTORM
+xdebug.remote_autostart=1
+xdebug.remote_log = /home/user/xdebug.log
