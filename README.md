@@ -12,11 +12,11 @@ And any other services
 
 # xDebug config examle
 
-zend_extension=xdebug.so
-xdebug.remote_host=winhost
-xdebug.remote_enable=1
-xdebug.remote_port=9000
-xdebug.remote_connect_back=0
-xdebug.idekey=PHPSTORM
-xdebug.remote_autostart=1
-xdebug.remote_log = /home/user/xdebug.log
+zend_extension=xdebug.so <br>
+xdebug.remote_host=winhost <br>
+xdebug.remote_enable=1 <br>
+xdebug.remote_port=9000 <br>
+xdebug.remote_connect_back=0 <br>
+xdebug.idekey=PHPSTORM<br>
+xdebug.remote_autostart=1<br>
+xdebug.remote_log = /home/user/xdebug.log<br>
